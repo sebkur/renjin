@@ -1,6 +1,7 @@
 rootProject.name = 'renjin'
 
 include 'tools:gcc-bridge:runtime'
+include 'tools:gcc-bridge:runtime-no-invoke'
 include 'tools:gcc-bridge:compiler'
 include 'tools:gnur-compiler'
 include 'tools:gnur-runtime'
