@@ -1,5 +1,8 @@
 package de.mobanisto.invoke;
 
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Method;
+
 public class MethodHandles {
 
     public static final class Lookup {
@@ -7,14 +10,16 @@ public class MethodHandles {
         public MethodHandle findConstructor(Class<?> refc,
                                             MethodType type)
                 throws NoSuchMethodException, IllegalAccessException {
-            return null;
+            Constructor<?> constructor = refc.getDeclaredConstructor(type.getParametersAsArray());
+            return new MethodHandle(constructor);
         }
 
         public MethodHandle findStatic(Class<?> refc,
                                        String name,
                                        MethodType type)
                 throws NoSuchMethodException, IllegalAccessException {
-            return null;
+            Method method = refc.getDeclaredMethod(name, type.getParametersAsArray());
+            return new MethodHandle(method);
         }
 
     }
