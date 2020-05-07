@@ -18,9 +18,9 @@
  */
 package org.renjin.gcc.runtime;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodType;
+import de.mobanisto.invoke.MethodHandle;
+import de.mobanisto.invoke.MethodHandles;
+import de.mobanisto.invoke.MethodType;
 
 /**
  * Thrown at runtime when a function that could not be found at compile time is invoked

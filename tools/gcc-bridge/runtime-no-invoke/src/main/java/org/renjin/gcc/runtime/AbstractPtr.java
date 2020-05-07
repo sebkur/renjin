@@ -19,7 +19,7 @@
 package org.renjin.gcc.runtime;
 
 
-import java.lang.invoke.MethodHandle;
+import de.mobanisto.invoke.MethodHandle;
 
 public abstract class AbstractPtr implements Ptr {
 

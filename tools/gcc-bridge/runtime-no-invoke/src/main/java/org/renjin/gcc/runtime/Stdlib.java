@@ -23,7 +23,7 @@ import org.renjin.gcc.format.*;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
-import java.lang.invoke.MethodHandle;
+import de.mobanisto.invoke.MethodHandle;
 import java.nio.charset.StandardCharsets;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

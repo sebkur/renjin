@@ -18,7 +18,7 @@
  */
 package org.renjin.gcc.runtime;
 
-import java.lang.invoke.MethodHandle;
+import de.mobanisto.invoke.MethodHandle;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.atomic.AtomicInteger;

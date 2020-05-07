@@ -18,7 +18,7 @@
  */
 package org.renjin.gcc.runtime;
 
-import java.lang.invoke.MethodHandle;
+import de.mobanisto.invoke.MethodHandle;
 
 /**
  * Runtime methods for operations on void pointers.

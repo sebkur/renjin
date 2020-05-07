@@ -18,7 +18,7 @@
  */
 package org.renjin.gcc.runtime;
 
-import java.lang.invoke.MethodHandle;
+import de.mobanisto.invoke.MethodHandle;
 
 /**
  * A {@link Ptr} implementation that wraps an "opaque" pointer.
